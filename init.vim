@@ -46,6 +46,11 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   {"kylechui/nvim-surround", config = true},
   {"numToStr/Comment.nvim", config = true},
+  {"windwp/nvim-autopairs", config = function()
+    local autopairs = require("nvim-autopairs")
+      autopairs.setup({ map_c_h = true, })
+    end
+  }
 })
 EOF
 
