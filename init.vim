@@ -1,4 +1,6 @@
-set guicursor = "i:block"
+set guicursor="i:block"
+
+inoremap <C-d> <Del>
 
 nnoremap Y y$
 vnoremap Y "+y
