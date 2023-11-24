@@ -1,11 +1,10 @@
 set guicursor="i:block"
+set shada="NONE"
 
 inoremap <C-d> <Del>
 
 nnoremap Y y$
 vnoremap Y "+y
-nnoremap < <<
-nnoremap > >>
 nnoremap c* *Ncgn
 
 noremap <silent> H ^
