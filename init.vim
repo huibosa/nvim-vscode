@@ -62,4 +62,4 @@ nnoremap == <Cmd>call VSCodeCall('editor.action.format')<CR>
 nnoremap gy <Cmd>call <SID>vscodeGoToDefinition('revealDeclaration')<CR>
 nnoremap gY <Cmd>call VSCodeNotify('editor.action.peekDeclaration')<CR>
 nnoremap gr <Cmd>call VSCodeNotify('editor.action.referenceSearch.trigger')<CR>
-nnoremap gs <Cmd>call VSCodeNotify('workbench.action.gotoSymbol')
+nnoremap gs <Cmd>call VSCodeNotify('workbench.action.gotoSymbol')<CR>
