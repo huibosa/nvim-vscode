@@ -7,8 +7,6 @@ nnoremap Y y$
 vnoremap Y "+y
 nnoremap c* *Ncgn
 
-noremap <silent> H ^
-noremap <silent> L $
 noremap <silent> j j
 noremap <silent> k k
 
